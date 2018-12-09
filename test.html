@@ -1,206 +1,174 @@
-<!DOCTYPE html PUBLIC -//W3C//DTD XHTML 1.0 Strict//EN http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd>
- <html lang="en">
- <head>
-	 <title></title>
-	 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	 <link rel="stylesheet" href="" type="text/css"/>
- </head>
-	 <body>
-	 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=0 height=0 src="//music.163.com/outchain/player?type=2&id=1330023212&auto=1&height=32"></iframe> 
-      <script type="text/javascript">
-document.write('<h1>  哈哈</h1>');
-document.write('<h1>你真笨</h1>');
-document.write('<h1>︱.⒉з⒋5</h1>');
-
-
-alert(".哈哈，又有人上当了，.");
-
-alert(".你是不是感觉自己很倒霉");alert(".想撞墙？？..");alert(".其实也没什么");alert(".就是几个窗口而已吧");alert(".真的只有几个窗口哦.");alert(".点一下");alert(".再点一下");alert("最后一下");alert(".好了，可以了");alert("等待中..");
-alert("......");alert("......");alert("......");
-alert("发现病毒入侵");
-alert("发现病毒入侵");
-alert("正在全盘监查。。。");
-alert("  提示:检测失败，请勿点击，系统恢复中。。。");
-alert("      恢复中断，病毒开始入侵。。");
-alert("     提示:确定下载     ");
-alert("病毒下载中");
- 
-alert("病毒下载中");
- alert("病毒下载中");
- 
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
- alert("病毒下载中");
-alert("病毒下载中");
-alert("病毒正在下载中");
- 
-alert("病毒正在下载中"); 
-alert("病毒正在下载中");
-alert("病毒正在下载中"); 
-alert("病毒正在下载中"); 
-alert("病毒正在下载中"); 
-alert("病毒正在下载中");
-alert("病毒正在下载中"); 
-
- 
- 
-alert("                  呵呵");
-alert("                傻眼了吧");
-alert("              不玩你了");
-alert("            点击确定");
-alert("          真乖");
-alert("               你可以上网了");
-alert("                是否关闭窗口");
-alert("对不起，你没有该权限"); 
- alert("对不起，你没有该权限"); 
-alert("对不起，你没有该权限"); 
- alert("对不起，你没有该权限"); alert("系统再次崩溃，病毒继续下载中");
-  alert("病毒下载中"); 
-  alert("病毒下载中"); 
-  alert("病毒下载中");
-  alert("病毒下载中");
-  alert("病毒下载中");
-  alert("病毒下载中");
-  alert("病毒下载中"); 
-  alert("好吧，别打算重启，不玩了"); alert("我太善良，只弄了这一点窗口");alert("感谢我吧！");
- alert("今天天气不错");
- alert("嘿嘿");
- 
- alert("别想出去了"); 
-alert("           哈哈哈哈哈哈");
-alert("              点吧");
-alert("               哈哈，别郁闷了");
-alert("                  zZZ...");
-alert("                     我睡了~");
-alert("            你继续看吧");
-alert("你可以出去了");
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>节日礼花</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+</head>
+<body>
+<style type="text/css">
+#tips{text-align:center;border:2px solid #484848;border-width:0 0 2px;}
+#tips a{font:arial;color:#FFF;background:#F06;display:inline-block;margin:10px 5px 0;padding:0 15px;border-radius:15px;}
+#tips a.active{background:#FE0000;}
+#zx{border:2px solid purple;}
+</style>
+<script type="text/javascript">
+var fgm = {
+on: function(element, type, handler) {
+return element.addEventListener ? element.addEventListener(type, handler, false) : element.attachEvent("on" + type, handler)
+},
+un: function(element, type, handler) {
+return element.removeEventListener ? element.removeEventListener(type, handler, false) : element.detachEvent("on" + type, handler)
+},
+bind: function(object, handler) {
+return function() {
+return handler.apply(object, arguments)
+}
+},
+randomRange: function(lower, upper) {
+return Math.floor(Math.random() * (upper - lower + 1) + lower)
+},
+getRanColor: function() {
+var str = this.randomRange(0, 0xFFFFFF).toString(16);
+while(str.length < 6) str = "0" + str;
+return "#" + str
+}
+};
+//初始化对象
+function FireWorks() {
+this.type = 0;
+this.timer = null;
+this.fnManual = fgm.bind(this, this.manual)
+}
+FireWorks.prototype = {
+initialize: function() {
+clearTimeout(this.timer);
+fgm.un(document, "click", this.fnManual);
+switch(this.type) {
+case 1:
+fgm.on(document, "click", this.fnManual);
+break;
+case 2:
+this.auto();
+break;
+};
+},
+manual: function(event) {
+event = event || window.event;
+this.__create__({
+x: event.clientX,
+y: event.clientY
+});
+},
+auto: function ()
+{
+var that = this;
+that.timer = setTimeout(function() {
+that.__create__({
+x: fgm.randomRange(50, document.documentElement.clientWidth - 50),
+y: fgm.randomRange(50, document.documentElement.clientHeight - 150)
+})
+that.auto();
+}, fgm.randomRange(900, 1100))
+},
+__create__: function (param)
+{
+var that = this;
+var oEntity = null;
+var oChip = null;
+var aChip = [];
+var timer = null;
+var oFrag = document.createDocumentFragment();
+oEntity = document.createElement("div");
+with(oEntity.style) {
+position = "absolute";
+top = document.documentElement.clientHeight + "px";
+left = param.x + "px";
+width = "4px";
+height = "30px";
+borderRadius = "4px";
+background = fgm.getRanColor();
+};
+document.body.appendChild(oEntity);
+oEntity.timer = setInterval(function() {
+oEntity.style.top = oEntity.offsetTop - 20 + "px";
+if(oEntity.offsetTop <= param.y) {
+clearInterval(oEntity.timer);
+document.body.removeChild(oEntity);
+(function() {
+//在50-100之间随机生成碎片
+//由于IE浏览器处理效率低, 随机范围缩小至20-30
+//自动放烟花时, 随机范围缩小至20-30
+var len = (/msie/i.test(navigator.userAgent) || that.type == 2) ? fgm.randomRange(20, 30) : fgm.randomRange(50, 100)
+for (i = 0; i < len; i++) {
+oChip = document.createElement("div");
+with(oChip.style) {
+position = "absolute";
+top = param.y + "px";
+left = param.x + "px";
+width = "4px";
+height = "4px";
+overflow = "hidden";
+borderRadius = "4px";
+background = fgm.getRanColor();
+};
+oChip.speedX = fgm.randomRange(-20, 20);
+oChip.speedY = fgm.randomRange(-20, 20);
+oFrag.appendChild(oChip);
+aChip[i] = oChip
+};
+document.body.appendChild(oFrag);
+timer = setInterval(function() {
+for(i = 0; i < aChip.length; i++) {
+var obj = aChip[i];
+with(obj.style) {
+top = obj.offsetTop + obj.speedY + "px";
+left = obj.offsetLeft + obj.speedX + "px";
+};
+obj.speedY++;
+(obj.offsetTop < 0 || obj.offsetLeft < 0 || obj.offsetTop > document.documentElement.clientHeight || obj.offsetLeft > document.documentElement.clientWidth) && (document.body.removeChild(obj), aChip.splice(i, 1))
+};
+!aChip[0] && clearInterval(timer);
+}, 30)
+})()
+}
+}, 30)
+}
+};
+fgm.on(window, "load", function() {
+var oTips = document.getElementById("tips");
+var aBtn = oTips.getElementsByTagName("a");
+var oFireWorks = new FireWorks();
+fgm.on(oTips, "click", function(event) {
+var oEvent = event || window.event;
+var oTarget = oEvent.target || oEvent.srcElement;
+var i = 0;
+if(oTarget.tagName.toUpperCase() == "A") {
+for(i = 0; i < aBtn.length; i++) aBtn[i].className = "";
+switch(oTarget.id) {
+case "manual":
+oFireWorks.type = 1;
+break;
+case "auto":
+oFireWorks.type = 2;
+break;
+case "stop":
+oFireWorks.type = 0;
+break;
+}
+oFireWorks.initialize();
+oTarget.className = "active";
+oEvent.stopPropagation ? oEvent.stopPropagation() : oEvent.cancelBubble = true
+}
+});
+});
+fgm.on(document, "contextmenu", function(event) {
+var oEvent = event || window.event;
+oEvent.preventDefault ? oEvent.preventDefault() : oEvent.returnValue = false
+});
 </script>
+<div id="tips"><a id="manual" href="javascript:;">手动燃放</a><a id="auto" href="javascript:;">自动燃放</a><a id="stop" href="javascript:;">停止燃放</a></div>
+<div id="zx">礼花燃放说明书:<br/>1"本烟花节能环保"无危害"燃放无风险。<br/>2"点击自动燃放可以解放双手(安卓设备如果使用360浏览器"自动燃放对渲染器性能要求较低"爆炸比较流畅"但没有其他浏览器壮观。)可以尽情欣赏烟花。<br/>3"点击手动燃放"你点哪儿"烟花就这哪儿爆炸"爆炸颗粒多"比较壮观"有趣"但对浏览器及渲染器性能是一种考验。<br/>4"点击停止燃放可以停止发射烟花。<br/>5"部分浏览器及设备不支持或运行本页较卡。<br/>6"手机推荐使用UC浏览器"因其渲染效果好"爆炸效果比较华丽"壮观！但对设备的性能要求将会更高！性能不加的机子暂时不使用uc浏览器"转而使用360浏览器(因其类似ie浏览器"且本人在代码中加入在用户使用Ie浏览器时自动较低爆炸效果"所以比较流畅"但不华丽)！<br/>7"电脑用户请不要使用IE浏览器浏览！
+</div></div><br/><br/><br/><br/><br/>            ↝↝↝↝↝↝↝↝↝↝↝↝↝↝↝<br/>                                   ↟WAP-掌上娱乐社区"节日礼花"！↡<br/>                                   ↜↜↜↜↜↜↜↜↜↜↜↜↜↜↜
 
 
-	
-
-	 
-	 
-	  <script type="text/javascript">
-    var firework = function(){
-    this.size = 40;
-    this.speed = 0.1;
-    this.rise();
-    }
-    firework.prototype = {
-    color:function(){
-    var c = ['0','3','6','9','c','f'];
-    var t = [c[Math.floor(Math.random()*100)%6],'0','f'];
-    t.sort(function(){return Math.random()>0.5?-1:1;});
-    return '#'+t.join('');
-    },
-    aheight:function(){
-    var h = document.documentElement.clientHeight;
-    return Math.abs(Math.floor(Math.random()*h-200))+201;
-    },
-    firecracker:function(){
-    var b = document.createElement('div');
-    var w = document.body.clientWidth;
-    b.style.color = this.color();
-    b.style.position = 'absolute';
-    b.style.bottom = 0;
-    b.style.left = Math.floor(Math.random()*w)+1+'px';
-    document.body.appendChild(b);
-    return b;
-    },
-    rise:function(){
-    var o = this.firecracker();
-    var n = this.aheight();
-    var speed = this.speed;
-    var e = this.expl;
-    var s = this.size;
-    var k = n;
-    var m = function(){
-    o.style.bottom = parseFloat(o.style.bottom)+k*speed+'px';
-    k-=k*speed;
-    if(k<2){
-    clearInterval(clear);
-    e(o,n,s,speed);
-    }
-    }
-    o.innerHTML = '*';
-    if(parseInt(o.style.bottom)<n){
-    var clear = setInterval(m,20);
-    }
-    },
-    expl:function(o,n,s,speed){
-    var R = n/3;
-    var Ri = n/6;
-    var r = 0;
-    var ri = 0;
-    for(var i=0;i<s;i++){
-    var span = document.createElement('span');
-    var p = document.createElement('p');
-    span.style.position = 'absolute';
-    span.style.left = 0;
-    span.style.top = 0;
-    span.innerHTML = '*';
-    p.style.position = 'absolute';
-    p.style.left = 0;
-    p.style.top = 0;
-    p.innerHTML = '+';
-    o.appendChild(span);
-    o.appendChild(p);
-    }
-    function spr(){
-    r += R*speed;
-    ri+= Ri*speed/2;
-    sp = o.getElementsByTagName('span');
-    p = o.getElementsByTagName('p');
-    for(var i=0; i<sp.length;i++){
-    sp[i].style.left=r*Math.cos(360/s*i)+'px';
-    sp[i].style.top=r*Math.sin(360/s*i)+'px';
-    p[i].style.left=ri*Math.cos(360/s*i)+'px';
-    p[i].style.top=ri*Math.sin(360/s*i)+'px';
-    }
-    R-=R*speed;
-    if(R<2){
-    clearInterval(clearI);
-    o.parentNode.removeChild(o);
-    }
-    }
-    var clearI = setInterval(spr,20);
-    }
-    }
-    window.onload = function(){
-    function happyNewYear(){
-    new firework();
-    }
-    setInterval(happyNewYear,400);
-    }
-    </script>
-    
-  	 </body>
- </html>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=0 height=0 src="//music.163.com/outchain/player?type=2&id=1330023212&auto=1&height=32"></iframe> </body></html>
