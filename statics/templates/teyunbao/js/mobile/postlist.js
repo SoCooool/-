@@ -1,1 +1,0 @@
-Base.getScript(Gobal.Skin+"/Post/JS/PostListFun.js?v=130826");

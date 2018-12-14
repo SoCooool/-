@@ -1,1 +1,0 @@
-Base.getScript(Gobal.Skin+"/JS/GoodsListFun.js?v=130826");

@@ -1,1 +1,0 @@
-Base.getScript("/js/BottomFun.js");

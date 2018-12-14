@@ -1,1 +1,0 @@
-Base.getScript(Gobal.Skin+"/js/mobile/CartindexFun_jf.js");

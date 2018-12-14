@@ -1,1 +1,0 @@
-Base.getScript(Gobal.Skin+"/js/mobile/LotteryDetailFun.js?v=130826");

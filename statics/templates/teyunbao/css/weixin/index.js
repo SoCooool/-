@@ -1,1 +1,0 @@
-Base.getScript(Gobal.Skin+"/JS/IndexFun.js?v=150129");
