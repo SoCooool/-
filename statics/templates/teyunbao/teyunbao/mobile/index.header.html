@@ -1,0 +1,37 @@
+<!-- 栏目页面顶部 -->
+
+    <header class="header">
+
+        <h1 class="fl"><span>{wc:$webname}</span><a href="{WEB_PATH}/mobile/mobile"><img src="\statics\uploads\banner\20160428\wap.png"/></a></h1>
+
+        <div class="fr head-r">
+
+            <a href="{WEB_PATH}/mobile/user/login" class="z-Member"></a>
+
+            <a id="btnCart" href="{WEB_PATH}/mobile/cart/cartlist" class="z-shop"></a>
+
+        </div>
+
+    </header> 
+
+    <!-- 栏目导航 -->
+
+    <nav class="g-snav u-nav">
+
+	    <div class="g-snav-lst"><a href="{WEB_PATH}/mobile/mobile/" {wc:if $key=="首页" }class="nav-crt"{wc:if:end}>首页</a> {wc:if $key=="首页" }<s class="z-arrowh"></s>{wc:if:end}</div>
+
+				
+
+	    <div class="g-snav-lst"><a href="/app/" {wc:if $key=="APP下载" }class="nav-crt"{wc:if:end}>APP下载</a>{wc:if $key=="APP下载" }<s class="z-arrowh"></s>{wc:if:end}</div>
+
+		
+
+	    <div class="g-snav-lst"><a href="{WEB_PATH}/mobile/shaidan/" {wc:if $key=="晒单" }class="nav-crt"{wc:if:end}>晒单</a>{wc:if $key=="晒单" }<s class="z-arrowh"></s>{wc:if:end}</div>
+
+        <div class="g-snav-lst"><a href="{WEB_PATH}/mobile/home/userqiandao" {wc:if $key=="签到" }class="nav-crt"{wc:if:end}>签到</a>{wc:if $key=="签到" }<s class="z-arrowh"></s>{wc:if:end}</div>
+
+		<div class="g-snav-lst"><a href="/xi/" {wc:if $key=="游戏" }class="nav-crt"{wc:if:end}>游戏</a>{wc:if $key=="游戏" }<s class="z-arrowh"></s>{wc:if:end}</div>
+
+		
+
+    </nav>

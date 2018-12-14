@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>{$title} {$key4}</title>
+  <meta charset="utf-8" />
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="{$title} {$key2}" />
+<meta name="Description" content="{$title} {$key3} {$desc}" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="description" content="">
+
+    <meta name="author" content="">
+	
+
+    <!-- Bootstrap Core CSS -->
+
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css"  type="text/css">
+
+	
+
+	<!-- Custom CSS -->
+
+    <link rel="stylesheet" href="__PUBLIC__/css/style.css">
+
+	
+
+	<!-- Owl Carousel Assets -->
+
+    <link href="__PUBLIC__/owl-carousel/owl.carousel.css" rel="stylesheet">
+
+    <link href="__PUBLIC__/owl-carousel/owl.theme.css" rel="stylesheet">
+
+	
+
+	<!-- Custom Fonts -->
+
+    <link rel="stylesheet" href="__PUBLIC__/font-awesome-4.4.0/css/font-awesome.min.css"  type="text/css">
+
+	
+
+	<!-- jQuery -->
+
+	<script src="__PUBLIC__/js/jquery-2.1.1.js"></script>
+
+	
+
+	<!-- Core JavaScript Files -->  	 
+
+    <script src="__PUBLIC__/js/bootstrap.min.js"></script>
+
+	
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+    <!--[if lt IE 9]>
+
+        <script src="js/html5shiv.js"></script>
+
+        <script src="js/respond.min.js"></script>
+
+    <![endif]-->
+
+</head><body>
+
+<header>
+
+	<!--Top-->
+
+	<nav id="top">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-md-6 col-sm-6">
+
+					<strong>欢迎访问{$title} {$key4}视频站</strong></div>
+
+  <div class="col-md-6 col-sm-6">
+
+					<ul class="list-inline top-link link"><li></li>
+
+					</ul>
+
+			  </div>
+
+			</div>
+
+		</div>
+
+	</nav>
+
+    
+
+	<!--Navigation-->
+
+    <nav id="menu" class="navbar">
+
+		<div class="container">
+
+			<div class="navbar-header"><span id="heading" class="visible-xs">在线观看</span>
+
+			  <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
+
+			</div>
+
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+
+				<ul class="nav navbar-nav">
+
+					<li><a href="/"><i class="fa fa-home"></i> 首页</a></li>
+
+
+<volist name="ff" id="vo">
+			<li><a  href="/yxk/index.php/home/index?url=q_{$vo}_orderby_1_limitdate_0"><i class="fa fa-play-circle-o"></i> {$vo}</a></li>
+</volist>
+	
+
+              
+             
+
+				</ul>
+
+			</div>
+
+		</div>
+
+	</nav>
+
+	<div style="margin:0 auto;width:1170px;">
+   {$ad}</div>
+
+	
+
+</header>

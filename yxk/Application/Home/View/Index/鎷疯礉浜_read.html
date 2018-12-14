@@ -1,0 +1,67 @@
+<include file="header" />
+
+<!-- Header -->
+
+	
+
+	<!-- /////////////////////////////////////////Content -->
+
+	<div id="page-content" class="single-page">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div id="main-content" class="col-md-8">
+
+					<div class="wrap-vid">
+如果看不见视频，请点<a href="javascript:;" onclick="document.getElementById('tt').style.display='block';document.getElementById('tt2').style.display='none'">打开播放器</a>
+						<span id="tt2" ><div id="youkuplayer" style="width:750px;height:500px"></div>
+<script type="text/javascript" src="http://player.youku.com/jsapi"></script>
+<script type="text/javascript">
+player = new YKU.Player('youkuplayer',{
+styleid: '0',
+client_id: 'YOUR YOUKUOPENAPI CLIENT_ID',
+vid: '{$url}',
+newPlayer: true
+});
+</script>	  </div></span>
+                       <span id="tt" style="display:none"> <iframe height=300 width=100% src='http://player.youku.com/embed/{$url}' frameborder=0 'allowfullscreen'></iframe></span>
+
+				{$desc}	</div>
+
+					<div class="share">				
+
+					<div class="info"></div>
+
+				
+
+											</div>
+
+										</div>
+
+								</div>
+
+								<div class="col-md-4"><div class="wrap-vid"></div>
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				</div>
+
+		</div>
+
+	</div>
+
+<include file="footer" />
+
+
+
+	

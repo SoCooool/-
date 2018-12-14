@@ -1,0 +1,17 @@
+/*
+*
+*	×÷Õß£ºÐ¡ÕÕ & »ÃÏñ
+*
+*/
+.btnAudio{ width:36px; height:36px; position:absolute; right:30px; top:18px; overflow:hidden; background:url("../image/bfq.png") left top no-repeat; z-index:100;}
+.rotate1circle{-webkit-animation:rotate1circle 1s linear infinite;}
+@-webkit-keyframes rotate1circle {
+        0% {
+                -webkit-transform-origin:center center;
+                -webkit-transform:rotate(0deg);
+        }
+        100% {
+                -webkit-transform-origin:center center;
+                -webkit-transform:rotate(360deg);
+        }
+}

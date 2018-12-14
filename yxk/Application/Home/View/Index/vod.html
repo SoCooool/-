@@ -1,0 +1,109 @@
+<include file="header" />
+
+<!-- Header -->
+
+	
+
+	<!-- /////////////////////////////////////////Content -->
+
+    
+
+	<div id="page-content" class="archive-page">
+
+		<div class="container">
+
+        
+
+			<div class="row">
+
+				<div id="main-content" class="col-md-12">
+
+                
+
+            	<div class="box">
+
+						<div class="box-header">
+
+							<h2><i class="fa fa-vimeo-square"></i> {$ti}</h2>
+
+						</div>
+
+						<div class="box-content">
+
+							<div class="row">
+
+								
+
+                                <volist name="list" id="vo">
+
+								<div class="col-md-3">
+
+									<div class="wrap-vid">
+
+										<div class="zoom-container">
+
+											<div class="zoom-caption">
+
+												<span>SF024</span>
+
+												<a href="{$list2[$key]}">
+
+													<i class="fa fa-play-circle-o fa-5x" style="color: #fff"></i>
+
+												</a>
+
+												<p>{$vo}</p>
+
+											</div>
+
+											<img src="{$list3[$key]}"   />
+
+										</div>
+
+									
+
+										<div class="info">
+
+										
+
+											<span><i class="fa fa-heart"></i>{$list4[$key]}</span>
+
+										</div>
+
+									</div>
+
+								</div>
+
+                                       </volist>
+
+                                
+
+								
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			
+
+					<center>
+
+				{$page}
+
+					</center>
+
+				</div>
+
+			</div></div></div>
+
+<include file="footer" />
+
+
+
+	

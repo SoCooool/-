@@ -1,0 +1,52 @@
+.querys{
+	margin: 1% 2% 1% 0;
+}
+body{
+	color: #229ffd;
+}
+#vip_menu{
+	z-index: 99999;
+	position: absolute;
+}
+.dazi1,.dazi2{visibility:hidden;}
+.dazi1{
+	position: absolute;
+	color: #f9f1e9;
+	text-align: center;
+	top: 15%;
+	left: 50%;
+	font-family: 'Clicker Script', cursive;
+	font-weight: normal;
+	transform: translate3d(-50%,-50%,0);
+	font-size: 18px;
+}
+.dazi2{
+	position: absolute;
+	color: #f9f1e9;
+	text-align: center;
+	top: 35%;
+	left: 49%;
+	transform: translate3d(-50%,-50%,0);
+	font-size: 28px;
+	font-family: 'Clicker Script', cursive;
+	font-weight: normal;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+.tishi{
+	position: absolute;
+	left:10%;
+	top: 1%;
+	font-family: "微软雅黑";
+	font-size: 18px;
+}
+.account_button{
+	width: 100%; 
+	text-align: center;
+	margin-top: 8%;
+	margin-bottom: 2%;
+}
+.account_ts{
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}

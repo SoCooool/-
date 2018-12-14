@@ -1,0 +1,69 @@
+body { color: #333333; background-color: #f0f0f0; font: 12px/1.5 microsoft yahei, Arial, Tahoma, Helvetica, sans-serif; }
+
+a { color: #333333; }
+a:hover { color: #4395f1; }
+a:visited { color: #333333; }
+
+input::-webkit-input-placeholder { color: #999999; -webkit-appearance: none; }
+
+input:-moz-placeholder { color: #999999; }
+
+input::-moz-placeholder { color: #999999; }
+
+input:-ms-input-placeholder { color: #999999; }
+
+.cRed { color: #f00000; }
+
+.header { background-color: #2b98ed; text-align: center; position: relative; }
+.header .i_home, .header .i_prev { background: url("../../../images/m/global/header-blue.png") no-repeat; }
+.header .i_home.hover, .header .i_home:hover, .header .i_prev.hover, .header .i_prev:hover { background-color: #055fa6; }
+.header .i_prev, .header .i_home { position: absolute; top: 0; cursor: pointer; }
+.header .i_prev { left: 0; background-position: right 0; }
+.header .i_home { right: 0; background-position: 0 0; }
+.header .logoTit { display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; position: relative; top: 0; background-repeat: no-repeat; background-image: url("top.jpg"); }
+@media only screen { .header .i_prev, .header .i_home { width: 41px; height: 44px; background-size: 124px 44px; }
+  .header .logoTit { width: 168px; height: 44px; background-size: 168px 44px; } }
+@media only screen and (min-width: 480px) { .header .i_prev, .header .i_home { width: 62px; height: 66px; background-size: 186px 66px; }
+  .header .logoTit { width: 253px; height: 66px; background-size: 253px 66px; } }
+@media only screen and (max-width: 319px) { .header .i_prev, .header .i_home { width: 31px; height: 33px; background-size: 93px 33px; }
+  .header .logoTit { width: 126px; height: 33px; background-size: 126px 33px; } }
+
+.container { padding: 0 4%; }
+
+.inp_a { display: block; width: 100%; border: 1px solid #cbcbcb; -webkit-appearance: none; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; background-color: #fff; color: #333; vertical-align: middle; box-shadow: none; overflow: hidden; }
+
+.btn_a { *zoom: 1; background-image: -webkit-gradient(linear, left top, left bottom, from(#fa9020), to(#fa883b)); background-image: -webkit-linear-gradient(top, #fa9020, #fa883b); background-image: -moz-linear-gradient(top, #fa9020, #fa883b); background-image: -ms-linear-gradient(top, #fa9020, #fa883b); background-image: -o-linear-gradient(top, #fa9020, #fa883b); background-image: linear-gradient(top, #fa9020, #fa883b); filter: progid:DXImageTransform.Microsoft.gradient(startColorStr="#FFFA9020", EndColorStr="#FFFA883B"); color: #fff; font-family: microsoft yahei; text-align: center; width: 100%; display: block; border: 0 none; cursor: pointer; }
+
+.statement { color: #666; text-align: left; }
+.statement .tit { color: #333; }
+
+.result { text-align: left; border: 1px solid #cbcbcb; background-color: #FFF; width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+.result .label { color: #666; }
+
+@media only screen { body { font-size: 17px; }
+  .inp_a { padding: 8px 13px 6px; margin-top: 37px; font-size: 17px; line-height: 18px; }
+  .btn_a { font-size: 17px; height: 36px; margin-top: 20px; border-radius: 2px; }
+  .statement { font-size: 12px; line-height: 16px; margin-top: 17px; }
+  .statement .tit { font-size: 14px; }
+  .statement p { margin-top: 6px; }
+  .result { margin-top: 17px; padding: 6px 13px 13px; }
+  .result .label { margin-right: 4px; }
+  .result p { margin-top: 4px; } }
+@media only screen and (min-width: 480px) { body { font-size: 26px; }
+  .inp_a { padding: 12px 20px 10px; margin-top: 56px; font-size: 26px; line-height: 28px; }
+  .btn_a { font-size: 26px; height: 54px; margin-top: 30px; border-radius: 4px; }
+  .statement { font-size: 18px; line-height: 24px; margin-top: 26px; }
+  .statement .tit { font-size: 22px; }
+  .statement p { margin-top: 10px; }
+  .result { margin-top: 26px; padding: 10px 20px 20px; }
+  .result .label { margin-right: 6px; }
+  .result p { margin-top: 6px; } }
+@media only screen and (max-width: 319px) { body { font-size: 13px; }
+  .inp_a { padding: 6px 10px 5px; margin-top: 28px; font-size: 13px; line-height: 14px; }
+  .btn_a { font-size: 13px; height: 27px; margin-top: 15px; border-radius: 2px; }
+  .statement { font-size: 9px; line-height: 12px; margin-top: 13px; }
+  .statement .tit { font-size: 11px; }
+  .statement p { margin-top: 5px; }
+  .result { margin-top: 13px; padding: 5px 10px 10px; }
+  .result .label { margin-right: 3px; }
+  .result p { margin-top: 3px; } }
