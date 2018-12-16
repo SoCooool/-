@@ -1,9 +1,0 @@
-# BEGIN SkaLinks
-<IfModule mod_rewrite.c>
-RewriteEngine on
-RewriteRule ^(.*)detailed/listing([0-9]+)\.html $1detailed/listing.php?link_id=$2
-RewriteRule search_(.*)\.html search.php?$1
-RewriteRule ^(.*)page([0-9]*)\.html $1index.php?page=$2
-RewriteRule ^(.*)index.html $1index.php
-</IfModule>
-# END SkaLinks
