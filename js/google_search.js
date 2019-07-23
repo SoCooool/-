@@ -1,0 +1,14 @@
+﻿document.write("<form method=\"get\" action=\"http://www.google.com/custom\" target=\"google_window\">");
+document.write("<input type=\"hidden\" name=\"domains\" value=\"fir8.net\"></input>");
+document.write("<input type=\"text\" name=\"q\" size=\"18\" maxlength=\"255\" title=\"请输入要搜索的内容\" class=\"input_bg\"></input>");
+document.write("<input type=\"radio\" name=\"sitesearch\" value=\"\"></input>Web");
+document.write("<input type=\"radio\" name=\"sitesearch\" value=\"fir8.net\" checked=\"checked\"></input>本站 ");
+document.write("<input type=\"Image\" name=\"sa\" value=\"\" src=\"images/search.gif\" align=\"absmiddle\"></input>");
+document.write("<input type=\"hidden\" name=\"client\" value=\"pub-6265113887678900\"></input>");
+document.write("<input type=\"hidden\" name=\"forid\" value=\"1\"></input>");
+document.write("<input type=\"hidden\" name=\"channel\" value=\"1280019505\"></input>");
+document.write("<input type=\"hidden\" name=\"ie\" value=\"UTF-8\"></input>");
+document.write("<input type=\"hidden\" name=\"oe\" value=\"UTF-8\"></input>");
+document.write("<input type=\"hidden\" name=\"cof\" value=\"GALT:#0066CC;GL:1;DIV:#999999;VLC:336633;AH:left;BGC:F8F8F8;LBGC:006666;ALC:0066CC;LC:0066CC;T:000000;GFNT:666666;GIMP:666666;LH:50;LW:778;L:http://www.fir8.net/blog/images/google_search_title.gif;S:http://www.fir8.net/blog;FORID:1;\"></input>");
+document.write("<input type=\"hidden\" name=\"hl\" value=\"zh-CN\"></input>");
+document.write("</form>");

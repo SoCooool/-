@@ -1,0 +1,79 @@
+BODY{
+    BACKGROUND: #C2E0EC;
+	MARGIN: 0px;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+}
+td{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.table{
+	background: #9C5A94
+}
+.Input{
+	HEIGHT: 16px;
+	font-family: "Arial", "Helvetica", "sans-serif";
+}
+Input{
+	HEIGHT: 22px;
+	font-family: "Arial", "Helvetica", "sans-serif";
+}
+Button{
+	font-family: "Arial", "Helvetica", "sans-serif";
+	line-height: 24px;
+}
+Select{
+	HEIGHT: 20px;
+}
+A{
+	TEXT-DECORATION: none;
+	color: #000000;
+}
+A:hover{
+	COLOR: #009900;
+	text-decoration: underline;
+}
+.title{
+	background: #94C8DE;
+	font-size: 14px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+.border{
+	border: 1px solid #fff;
+}
+.tdbg{
+	background: #E9E9E9;
+	line-height: 120%;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif
+}
+.topbg{
+	background: #94C8DE;
+	color: #FFFFFF;
+	font: normal 14px "Arial", "Helvetica", "sans-serif";
+	text-align: center;
+}
+.bgcolor{
+	background: #C2E0EC;
+}
+img{
+	border: 0px none;
+}
+.progress1{
+	height: 20px;
+	width: 400px;
+	border: 1px solid #104a7b;
+	text-align: left;
+	MARGIN-top:50px;
+	margin-bottom: 5px;
+}
+.progress2{
+	height: 20px;
+	border: 0px none;
+	background-color: #76D769;
+	MARGIN: 1px 1px 1px 1px;
+	text-align: left;
+}

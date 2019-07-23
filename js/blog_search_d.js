@@ -1,0 +1,12 @@
+﻿document.write("<form name=\"blogsearch\" method=\"Post\" action=\"search.asp\">");
+document.write("<img src=\"images/blog_search.gif\" border=\"0\" alt=\"fir8.net\" align=\"bottom\"></img></a>&nbsp;");
+document.write("<input name=\"SearchContent\" type=\"text\" id=\"SearchContent\" size=\"28\" title=\"请输入要搜索的内容\" class=\"input_bg\" />&nbsp;&nbsp;&nbsp;");
+document.write("<select name=\"SearchMethod\" class=\"select_bg\">");
+document.write("<option value=\"1\">日志标题</option>");
+document.write("<option value=\"2\">日志内容</option>");
+document.write("<option value=\"3\">评论内容</option>");
+document.write("<option value=\"4\">留言内容</option>");
+document.write("<option value=\"5\">留言回复</option>");
+document.write("</select>&nbsp;&nbsp;&nbsp;");
+document.write("<input name=\"Submit\" type=\"image\" id=\"Submit\" value=\"\" src=\"images/search.gif\" align=\"absmiddle\" />");
+document.write("</form>");
