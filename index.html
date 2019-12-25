@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>AIDE技术网时间抽aidezy.com</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+</head>
+<body>
+<div class="content">
+	<div class="wrapper">
+		<div class="light"><i></i></div>
+		<hr class="line-left">
+		<hr class="line-right">
+		<div class="main">
+			<h1 class="title">AIDE技术网时间轴</h1>		
+	
+
+	
+			
+			<div class="year">
+				<h2><a href="#">2018年<i></i></a></h2>
+				<div class="list">
+					<ul>
+						<li class="cls">
+							<p class="date">2018年8月14</p>
+							<p class="intro">留言板</p>
+							<p class="version">&nbsp;</p>
+							<div class="more">
+								<p>日期(20180814)2018年8月14号， 今天写了两遍文章想了一下还是写到时间轴上，毕竟是时间轴，就是专门记录事情的，哈哈，建站这么久了，我才想起本站居然连关于本站都没有，所以写了一个关于本站，还有一个就是赞助本站，赞助也是一份心意而已，感兴趣的可以进去看看哟，关于本站具体也没怎么介绍，因为我也不知道怎么介绍，所以写了一些人生哲理希望有用，哈哈。</p>
+							</div>
+						</li>
+						<li class="cls">
+							<p class="date">2018年8月14日</p>
+							<p class="intro">优化</p>
+							<p class="version">&nbsp;</p>
+							<div class="more">
+								<p>日期(20180814)2018年8月14号， 发现博客访问有点卡。所以今天做了彻底的优化，自己花了50快单独买了一年的mysql用来存放数据库，程序又单独放到另一个地方，还买了一个cdn隐藏了源ip，可以说我这次不仅仅是做了优化，更是做了网站安全上的措施。3组合了解下！现在的访问速度我是相当自信的，哈哈！！！</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(".main .year .list").each(function(e, target){
+	var $target=$(target),
+	$ul = $target.find("ul");
+	$target.height($ul.outerHeight()), $ul.css("position", "absolute");
+}); 
+$(".main .year>h2>a").click(function(e){
+	e.preventDefault();
+	$(this).parents(".year").toggleClass("close");
+});
+</script>
+	<div style="background:#ccc;text-align:center"><a href="http://www.aidezy.com/">返回QQ1000首页</a>&nbsp;&nbsp;<a href="http://www.aidezy.com/">关于QQ1000</a>&nbsp;&nbsp;<a href="http://aidezy.om/">网站定位</a>&nbsp;&nbsp;<a href="http://www.aidezy.com/">免责声明</a>&nbsp;&nbsp;<a href="http://www.aidezy.com/">广告联系</a></div>
+</body>
+</html>
