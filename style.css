@@ -20,7 +20,7 @@ a:hover{color:#F60;text-decoration:underline;}
 /* content */
 .content{position:relative;width:1000px;margin:0 auto;}
 .content{padding:50px 0;min-height:720px;background:#3a3c48 url("images/content-bg.png");width:100%;}
-.content .wrapper{position:relative;background:url("images/release-bg.png") repeat right top;width:960px;margin:0 auto;}
+.content .wrapper{position:relative;background:url("images/release-bg.png") repeat-y right top;width:960px;margin:0 auto;}
 .content .light{position:absolute;left:55px;top:-50px;width:152px;height:191px;background:url("images/light-top.png") no-repeat top center;}
 .content .light i{position:absolute;width:100%;height:100%;top:0;background:url("images/light.png") no-repeat top center;}
 .content .line-left{position:absolute;left:0;top:15px;width:70px;}
